@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+.app-topbar .topbar-menu {
+flex-flow: row-reverse !important;
+}
+.task-cnt {
+    width: 100%;
+}
+.task-cnt .w24{
+    width:24%;
+    padding-right: 6px;
+    }
+.task-cnt .w33{
+width:33%;
+padding-right: 6px;
+}
+.task-cnt .w32{
+    width:32%;
+    padding-right: 6px;
+    }
+.task-cnt .w32{
+    width:32%;
+    padding-right: 6px;
+    }
+    
+.task-cnt .w30{
+    width:30%;
+    }    
+.task-cnt .w50{
+    width:50%;
+    padding-right: 6px;
+    }
+.task-cnt .w48{
+    width:48%;
+    padding-right: 6px;
+    }    
+.task-cnt .w12{
+    width:12%;
+    padding-right: 6px;
+}
+.task-cnt .w60{
+    width:60%;
+    padding-right: 6px;
+    }
+.task-cnt .w100{
+    width:96%;
+    padding-right: 6px;
+}
+.task-dt {
+    display: inline-block;
+}
+
+
+.form-group {
+    flex-direction: column;
+    display: inline-flex;
+}
+section.group-section{
+    border-radius: 25px;
+    padding: 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+label {
+    text-align: left;
+    font-weight: bold;
+}
+.sidenav-menu.show-menu {
+    width: 240px;
+    transition: transform 0.3s ease;
+    display: none;
+    transform: translateX(-100%);
+    margin-left: 0 !important;
+    opacity: 1 !important;
+}
+.sidenav-menu {
+    transform: translateX(0%);
+    display: block;
+}
+.menu-toggle-btn {
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    z-index: 1000;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 99999;
+}
+.menu-toggle-btn i {
+    font-size: 20px;
+}
+.globle-page.menu-active .page-content {
+margin-left: 0;
+}
+.globle-page .app-topbar {
+margin-left: 0;
+}
+.sidenav-menu span.logo-lg {
+    text-align: center;
+}
+@media(max-width: 768px) {
+.page-content {
+margin-left: 0!important;
+}
+.app-topbar {
+margin-left: 0!important;
+}
+.sidenav-menu.show-menu {
+    width: 240px;
+    transition: transform 0.3s ease;
+    display: block;
+    transform: translateX(0%);
+    margin-left: 0 !important;
+    opacity: 1 !important;
+}
+.sidenav-menu {
+    transform: translateX(-100%);
+    display: none;
+}
+}
+.error {
+    color: #ff0000;
+    font-weight: bolder;
+    text-align: center;
+}
+.success {
+    color: green;
+    font-weight: bolder;
+    justify-self: center;
+}
